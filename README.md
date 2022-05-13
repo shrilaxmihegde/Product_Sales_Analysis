@@ -23,6 +23,6 @@ Within this analysis used ***Python*** to perform the ***ETL*** process to extra
 
 ## Resources:
 
-***Data Sources *** ; customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
+ ***Data Sources*** : customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
 
  
