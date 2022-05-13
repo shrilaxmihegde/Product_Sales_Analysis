@@ -1,12 +1,13 @@
 # Product_Sales_Analysis
 
-# Overview of the project :
+## Overview of the project :
 
  Product Sales Analysis  project is the contains across the selling report analysis ; Customer,products, region, total discount ,Grand total, yearly sales,population, orderdate and data,shipdate,customerid,custemername, transformation, aggregation. etc
+ 
 Within this analysis used ***Python*** to perform the ***ETL*** process to extract the dataset, transform the data, connect to an  ***AWS*** ,***SQL*** instance, and load the transformed data into ***postgreSQL***, and Tableau dashboard.
 ***ML*** part based  on pridicts total sales in a new city, inputting a population, Household income with the total sale.
 
-Purpose :
+## Purpose :
 
 1. Create a New repo in a GitHub.
 
@@ -20,8 +21,8 @@ Purpose :
 
 6. Complte produt sales data analysis.
 
-# Resources:
+## Resources:
 
-***Data Sources: *** customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
+***Data Sources *** ; customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
 
  
