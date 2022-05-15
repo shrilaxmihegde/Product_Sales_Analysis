@@ -35,7 +35,7 @@ Within this analysis used ***Python*** to perform the ***ETL*** process to extra
 
  ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
 
- !RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
+ ![RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
 
 
 
