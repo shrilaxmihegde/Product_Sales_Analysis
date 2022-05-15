@@ -5,24 +5,37 @@
  Product Sales Analysis  project is the contains across the selling report analysis ; Customer,products, region, total discount ,Grand total, yearly sales,population, orderdate and data,shipdate,customerid,custemername, transformation, aggregation. etc
  
 Within this analysis used ***Python*** to perform the ***ETL*** process to extract the dataset, transform the data, connect to an  ***AWS*** ,***SQL*** instance, and load the transformed data into ***postgreSQL***, and Tableau dashboard.
-***ML*** part based  on pridicts total sales in a new city, inputting a population, Household income with the total sale.
+***Machine Learning*** Develop a ML model to predict the total sales per month based on histrical data points. Trying with LinearRegression Model and RandomForest Classifier model.
 
-## Purpose :
+## Stpes :
 
 1. Create a New repo in a GitHub.
 
-2. ETL processsing using python.
+2. Retrive sales related data from AWS S3 bucket. 
 
-3. Merge the Data sets in Python and Blending the dataset in tableau Data source.
+3. ETL - Processsing using python (Pandas, numpy).
 
-4. Retrieve data from a AWS and  Define s3 and explain how it processes data and create an atomation.
+4. Merge the Data sets in Python and blend the dataset for visulization using  Tableau.
 
-5. Cretae a clear dashbord with tableau and showing the sales data Visualization.
+5. Write the clean data into PostgreSQL database tables for further usage like Dashaboard, ML.
 
-6. Complte produt sales data analysis.
+6. Cretae a comprehenssive  dashbord using Tableau.
+
+8. Define / Outline future enahancement for making this data pipeleine end to end automated.
 
 ## Resources:
 
  ***Data Sources*** : customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
 
- 
+ ## Database Schema :
+
+ ![sales_data_ERD)](/Resources/sales_data_ERD.png) 
+
+ ## Machine Learning Model.
+
+ ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
+
+ !RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
+
+
+
