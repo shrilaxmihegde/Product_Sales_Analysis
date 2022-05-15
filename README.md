@@ -28,23 +28,22 @@ Within this analysis used ***Python*** to perform the ***ETL*** process to extra
  ***Data Sources*** : customer_data.csv, products_sheet.csv, sales_order_sheet.csv, sales_team_sheet.csv, store_region.csv.
 
  ## Database Schema :
-
+ 
  ![sales_data_ERD)](/Resources/sales_data_ERD.png) 
 
  ## Machine Learning Model.
  
- ### LinearRegression Model.
-  Linear_Regression_Predictions, sales data accuracy score is 23.63%.
+ ### Linear Regression Model
+ 
+  Linear Regression pridiction accuracy score is 23.63%
 
  ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
  
-### RandomForestRegressor Model
-  RandomForestRegressor sales data acccuracy score is 19.91%.
-
- ![RandomForestRegressor)](/Resources/RandomForestRegressor.png)
+ ### RandomForestRegressor 
+     RandomForestRegressor accuracy score is 19.9% 
+     
+ ![RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
  
- Here its shows Linear_Regression_Predictions sales data accuracy score higher then, RandomForestRegressor sales data accuaracy score.
-  
-
+    Here  its Shows  Linear Regression accuracy score is higher then RandomForestRegressor sales pridiction accuray score. 
 
 
