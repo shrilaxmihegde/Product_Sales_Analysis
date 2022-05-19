@@ -7,7 +7,7 @@
 Within this analysis used ***Python*** to perform the ***ETL*** process to extract the dataset, transform the data, connect to an  ***AWS*** ,***SQL*** instance, and load the transformed data into ***postgreSQL***, and Tableau dashboard.
 ***Machine Learning*** Develop a ML model to predict the total sales per month based on histrical data points. Trying with LinearRegression Model and RandomForest Classifier model.
 
-## Stpes :
+## Steps :
 
 1. Create a New repo in a GitHub.
 
@@ -19,7 +19,7 @@ Within this analysis used ***Python*** to perform the ***ETL*** process to extra
 
 5. Write the clean data into PostgreSQL database tables for further usage like Dashaboard, ML.
 
-6. Cretae a comprehenssive  dashbord using Tableau.
+6. Create a comprehenssive  dashbord using Tableau.
 
 8. Define / Outline future enahancement for making this data pipeleine end to end automated.
 
