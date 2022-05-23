@@ -2,7 +2,7 @@ SQL_data_tableSQL_data_table# Product Sales Analysis
 
 ## Overview of the project :
 
- An automated end-to-end data pipeline which will perform ***"Extract", "Transform" and "Load" the Product Sales data and then create a considerable dashbaord to visulaize the product sales statistics in Tableau. Using Machine Learning algorithms, classify the customer data and develope a ML model to predict the future sales.
+ An automated end-to-end data pipeline which will perform ***"Extract***", ***Transform***" and ***Load***" the Product Sales data and then create a considerable dashbaord to visulaize the product sales statistics in Tableau. Using **Machine Learning algorithms**, classify the customer data and develope a **ML** model to predict the future sales.
 
  Data journey starts with downloading the files from AWS S3 bucket using ***Python*** Next dataset will undergo cleaning, filtering and transformation using Pandas. Transforemd and cleaned data will be loaded to PostgreSQL using sqlalchamy. Using Tableau, an interactive dashboard is built and published to Tableau server for further analysis and visulaization.
  A ML model is developed with LinearRegression Model and RandomForest Classifier model to predict the future sales. Alos, with K-means algorithom (Unsupervised learning method), customer classification is done.
@@ -73,11 +73,6 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
  Here all 5 CSV table loded detail :
 
  ![SQLdatatable)](/Resources/SQL_data_table.png) 
-
-
-## Tableau Dashboard :
-
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: <In progress>
 
 
 ## Machine Learning (ML) :
@@ -152,4 +147,7 @@ In above figure, we can see between 4,5 and 6 curve shifts to a strong horizonta
 
 Using K-means algorithm, with clsuter value  6, we can see the good result with customer classification.  
 
+## Tableau Dashboard :
+
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: <In progress>
  
