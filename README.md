@@ -140,7 +140,7 @@ In above figure, we can see between 4,5 and 6 curve shifts to a strong horizonta
 
 ![six_cluster)](/Resources/six_cluster.png) 
 
-![3D_six_cluster)](/Resources/3D_six_cluster.png) 
+![3D_six_cluster)](/Resources/3D_six_cluster_with_legend.png) 
 
 
 ## Summary : 
@@ -149,5 +149,5 @@ Using K-means algorithm, with clsuter value  6, we can see the good result with 
 
 ## Tableau Dashboard :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: <In progress>
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: In progress :
  
