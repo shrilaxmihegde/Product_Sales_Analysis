@@ -4,7 +4,7 @@ SQL_data_tableSQL_data_table# Product Sales Analysis
 
  An automated end-to-end data pipeline which will perform ***"Extract***", ***Transform***" and ***Load***" the Product Sales data and then create a considerable dashbaord to visulaize the product sales statistics in Tableau. Using **Machine Learning algorithms**, classify the customer data and develope a **ML** model to predict the future sales.
 
- Data journey starts with downloading the files from AWS S3 bucket using ***Python*** Next dataset will undergo cleaning, filtering and transformation using Pandas. Transforemd and cleaned data will be loaded to PostgreSQL using sqlalchamy. Using Tableau, an interactive dashboard is built and published to Tableau server for further analysis and visulaization.
+ Data journey starts with downloading the files from AWS S3 bucket using ***Python*** Next dataset will undergo cleaning, filtering and transformation using Pandas. Transforemd and cleaned data will be loaded to **PostgreSQL** using sqlalchamy. Using Tableau, an interactive dashboard is built and published to Tableau server for further analysis and visulaization.
  A ML model is developed with LinearRegression Model and RandomForest Classifier model to predict the future sales. Alos, with K-means algorithom (Unsupervised learning method), customer classification is done.
 
 
@@ -38,7 +38,9 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 5. Create a comprehenssive  interactive dashbord using Tableau.
 
 6. Develop Machine Learning Models:
+ 
    a.Using unsupervised learning methods, classify the customer data based on behaviour like Total purchased, recency and frequency.
+   
    b.Develop a futre slaes prediction model with LinearRegression and RandomForest Classifier.
 
 7. Define / Outline future enahancement for making this data pipeleine end to end automated.
@@ -62,15 +64,15 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 ### Here are the some details below :
 
-  Create the path to Local and AWS from s3 bucket.
+ #### Create the path to Local and AWS from s3 bucket.
 
  ![localawsfilepath)](/Resources/local_aws_filepath.png) 
 
- Crete ETL engine to SQL Database :
+#### Create conection to SQL Database :
 
- ![ETLengine)](/ETL_engine.png) 
+ ![ETLengine)](Resources/ETL_engine.png) 
 
- Here all 5 CSV table loded detail :
+#### Here all 5 CSV data loded to a SQLDatabase table detail :
 
  ![SQLdatatable)](/Resources/SQL_data_table.png) 
 
@@ -149,5 +151,6 @@ Using K-means algorithm, with clsuter value  6, we can see the good result with 
 
 ## Tableau Dashboard :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: In progress :
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: 
+In progress :
  
