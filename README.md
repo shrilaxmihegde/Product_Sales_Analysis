@@ -99,24 +99,34 @@ Derive last 3 months sales diff for each month. Then split the data into train a
  
  ### Linear Regression Model :
  
- Root Mean Square Error : 237649.63
- Coefficient :  [[ 0.07616224, -0.31430091, -0.1239525 ]]
- Intercept : [3216058.47696452]
+Mean Absolute Error (MAE): 197492.8501748511
+
+Mean Squared Error (MSE): 56477347663.681496
+
+Root Mean Squared Error (RMSE): 237649.6321555779
+
+Mean Absolute Percentage Error (MAPE): 8.33
+
+Accuracy: 91.67%
 
  ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
  
  ### RandomForestRegressor Model:
  
 Mean Absolute Error (MAE): 154779.7333333333
+
 Mean Squared Error (MSE): 38314112561.17665
+
 Root Mean Squared Error (RMSE): 195739.91049649697
-Mean Absolute Percentage Error (MAPE): 8.67
-Accuracy: 91.33
+
+Mean Absolute Percentage Error (MAPE): 8.67 
+
+Accuracy: 91.33% 
      
  ![RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
  
  #### Result :
-while comparing both the models, RMSE value is lesser for  RandomForestRegressor. Hence, RandomForestRegressor model is better fit for this dataset.
+While comparing both the models, RMSE value is lesser for  RandomForestRegressor. Hence, RandomForestRegressor model is better fit for this dataset.
 
 
 ## Unsupervised Machine Learning Model :
@@ -162,14 +172,14 @@ Using K-means algorithm, with clsuter value  6, we can see the good result with 
 
 
 Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here:
-### Questions :
+Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
 1. Which region has the highest average sales?
 2. Which sales channel did highest sales?
 3. What are the Top N and Bottom N products per year by sales?
 4. How much average sales per customer by products ?
-5. Based on the two Years how much sales trend will change?
+5. Based on the last two years sales, what will be the sales forecast?
 6. Which state has the highest sales in three years(2018,2019,2020)?
 7. Which state has the highest sales ?
-8. Which group did the highest ?
+8. Which group did the highest sales ?
 9. Total number of order by state ?
