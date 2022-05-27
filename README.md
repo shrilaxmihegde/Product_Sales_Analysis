@@ -1,4 +1,4 @@
-SQL_data_tableSQL_data_table# Product Sales Analysis
+# Product Sales Analysis
 
 ## Overview of the project :
 
@@ -31,11 +31,11 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 2. ETL - Processsing using python (Pandas, numpy).
 
-3. Merge the Data sets in Python and blend the dataset for visulization using  Tableau.
+3. Merge the Data sets in Python and blend the dataset for visualization using  Tableau.
 
 4. Write the clean and transformed data into PostgreSQL database tables for further usage like Dashaboard & ML.
 
-5. Create a comprehenssive  interactive dashbord using Tableau.
+5. Create a comprehenssive  interactive dashboard using Tableau.
 
 6. Develop Machine Learning Models:
  
@@ -49,7 +49,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
  ## Database Schema :
  
- ![sales_data_ERD)](/Resources/sales_data_ERD.png) 
+ ![sales_data_ERD)](/Resources/product_SalesDB_ERD.png) 
 
 ## ETL :
 
@@ -84,10 +84,10 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 1. Model to predict future sales
 
 #### Step 1: Analyze the data set.
-	While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
+While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
 We can see dataset we have is not a seasonal. So, LinearRegression and RandomForestClassifier algorithms can be used to develop a model to preddict the sales.
 #### Step 2.
-	Derive last 3 months sales diff for each month. Then split the data into train and test. After adding 3 months sales diff and dropping null values we end up with 28 momths data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
+Derive last 3 months sales diff for each month. Then split the data into train and test. After adding 3 months sales diff and dropping null values we end up with 28 months data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
 
 #### Step 3: Initialze the model, fit the model and predict.
 
@@ -99,16 +99,25 @@ We can see dataset we have is not a seasonal. So, LinearRegression and RandomFor
  
  ### Linear Regression Model :
  
-  Linear Regression pridiction accuracy score is 23.63%
+ Root Mean Square Error : 237649.63
+ Coefficient :  [[ 0.07616224, -0.31430091, -0.1239525 ]]
+ Intercept : [3216058.47696452]
 
  ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
  
- ### RandomForestRegressor 
-     RandomForestRegressor accuracy score is 19.9% 
+ ### RandomForestRegressor Model:
+ 
+Mean Absolute Error (MAE): 154779.7333333333
+Mean Squared Error (MSE): 38314112561.17665
+Root Mean Squared Error (RMSE): 195739.91049649697
+Mean Absolute Percentage Error (MAPE): 8.67
+Accuracy: 91.33
      
  ![RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
  
-    Here  its Shows  Linear Regression accuracy score is higher then RandomForestRegressor sales pridiction accuray score. 
+ #### Result :
+while comparing both the models, RMSE value is lesser for  RandomForestRegressor. Hence, RandomForestRegressor model is better fit for this dataset.
+
 
 ## Unsupervised Machine Learning Model :
 
@@ -145,12 +154,22 @@ In above figure, we can see between 4,5 and 6 curve shifts to a strong horizonta
 ![3D_six_cluster)](/Resources/3D_six_cluster_with_legend.png) 
 
 
-## Summary : 
+## Result : 
 
 Using K-means algorithm, with clsuter value  6, we can see the good result with customer classification.  
 
-## Tableau Dashboard :
+## Tableau Dashboard Details :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: 
-In progress :
- 
+
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here:
+### Questions :
+
+1. Which region has the highest average sales?
+2. Which sales channel did highest sales?
+3. What are the Top N and Bottom N products per year by sales?
+4. How much average sales per customer by products ?
+5. Based on the two Years how much sales trend will change?
+6. Which state has the highest sales in three years(2018,2019,2020)?
+7. Which state has the highest sales ?
+8. Which group did the highest ?
+9. Total number of order by state ?
