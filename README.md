@@ -31,11 +31,11 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 2. ETL - Processsing using python (Pandas, numpy).
 
-3. Merge the Data sets in Python and blend the dataset for visulization using  Tableau.
+3. Merge the Data sets in Python and blend the dataset for visualization using  Tableau.
 
 4. Write the clean and transformed data into PostgreSQL database tables for further usage like Dashaboard & ML.
 
-5. Create a comprehenssive  interactive dashbord using Tableau.
+5. Create a comprehenssive  interactive dashboard using Tableau.
 
 6. Develop Machine Learning Models:
    a.Using unsupervised learning methods, classify the customer data based on behaviour like Total purchased, recency and frequency.
@@ -85,7 +85,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 	While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
 We can see dataset we have is not a seasonal. So, LinearRegression and RandomForestClassifier algorithms can be used to develop a model to preddict the sales.
 #### Step 2.
-	Derive last 3 months sales diff for each month. Then split the data into train and test. After adding 3 months sales diff and dropping null values we end up with 28 momths data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
+	Derive last 3 months sales diff for each month. Then split the data into train and test. After adding 3 months sales diff and dropping null values we end up with 28 months data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
 
 #### Step 3: Initialze the model, fit the model and predict.
 
@@ -143,11 +143,21 @@ In above figure, we can see between 4,5 and 6 curve shifts to a strong horizonta
 ![3D_six_cluster)](/Resources/3D_six_cluster_with_legend.png) 
 
 
-## Summary : 
+## Result : 
 
 Using K-means algorithm, with clsuter value  6, we can see the good result with customer classification.  
 
-## Tableau Dashboard :
+## Tableau Dashboard Details :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here: In progress :
- 
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here:
+# Questions :
+
+1. Which region has the highest average sales?
+2. Which sales channel did highest sales?
+3. What are the Top N and Bottom N products per year by sales?
+4. How much average sales per customer by products ?
+5. Based on the two Years how much sales trend will change?
+6. Which state has the highest sales in three years(2018,2019,2020)?
+7. Which state has the highest sales ?
+8. Which group did the highest ?
+9. Total number of order by state ? 
