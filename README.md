@@ -85,7 +85,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
 We can see dataset we have is not a seasonal. So, LinearRegression and RandomForestClassifier algorithms can be used to develop a model to preddict the sales.
 #### Step 2.
-Derive last 3 months sales diff for each month. Then split the data into train and test. After adding 3 months sales diff and dropping null values we end up with 28 months data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
+Derive last 3 months sales diffrence for each month. Then split the data into train and test. After adding 3 months sales diffrence and dropping null values we end up with 28 months data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
 
 
 #### Step 3: Initialze the model, fit the model and predict.
@@ -94,7 +94,7 @@ Derive last 3 months sales diff for each month. Then split the data into train a
 
 
  Here i used ***Linear Regression Model*** and ***RandomForestRegressor*** for saels pridictons.
- Below it shows two differet accuracy scores :
+ Below it shows two diffrent accuracy scores :
  
  ### Linear Regression Model :
  
