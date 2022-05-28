@@ -172,7 +172,7 @@ Using K-means algorithm, with clsuter value  6, we can see the good result with 
 Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here:
 Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
-### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
+###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
 
 1. Which region has the highest average sales?
 2. Which sales channel did highest sales?
@@ -184,5 +184,5 @@ Tableau Dashboard will help answering below questioons to make data driven decis
 8. Which group did the highest ?
 9. Total number of order by state ? 
 
-### Presentation (Draft) :
+#### Presentation (Draft) :
 Draft presentation is avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
