@@ -169,7 +169,8 @@ Using K-means algorithm, with clsuter value  6, we can see the good result with 
 
 ## Tableau Dashboard Details :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. Dashboard is accessible here:
+Using Tableau Public, an interactive comprehenssive dashbaord is built. 
+
 Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
 ###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
