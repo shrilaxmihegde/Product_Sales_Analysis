@@ -128,7 +128,7 @@ Accuracy: 91.33%
 While comparing both the models, RMSE value is lesser for  RandomForestRegressor. Hence, RandomForestRegressor model is better fit for this dataset.
 
 
-## Unsupervised Machine Learning Model :
+## Unsupervised Machine Learning Model (K-means cluster):
 
 Using Machine Learning algorithms, customers can be classifiled based on the behavior like:
   1. How frequently purchased.
