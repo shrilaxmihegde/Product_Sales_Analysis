@@ -40,7 +40,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
  
    a.Using unsupervised learning methods, classify the customer data based on behaviour like Total purchased, recency and frequency.
    
-   b.Develop a futre slaes prediction model with LinearRegression and RandomForest Classifier.
+   b.Develop a future slaes prediction model with LinearRegression and RandomForest Classifier.
 
 7. Define / Outline future enahancement for making this data pipeleine end to end automated.
  
