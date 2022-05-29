@@ -78,7 +78,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 ## Machine Learning (ML) :
 
 ### Supervised Machine Learning Model :
-#### Create a Create postgresql connection engine and read the data from postgresqlDB sales_order_sheet_processed :
+ Create a Create postgresql connection engine and read the data from postgresqlDB sales_order_sheet_processed :
 
  ![SQLengine)](/Resources/SQL_engine.png)
  
@@ -134,9 +134,9 @@ While comparing both the models, RMSE value is lesser for  RandomForestRegressor
 ## Unsupervised Machine Learning Model (K-means cluster):
 
 Using Machine Learning algorithms, customers can be classifiled based on the behavior like:
-  1. How frequently purchased.
-  2. How often customer purchased.
-  3. How much the customer spent.
+  1. How frequently purchased ?
+  2. How recently purchased?
+  3. How much purched?
 
 K-Means algorithm ( Unsupervised Learning Model) will help to learn and classify the customer data based on the behavior. Here K means clustering, which is dervied based on the Elbow curve. 
 Inertia is one of the most common objective functions to use when creating an elbow curve. Basically the inertia objective function is measuring the amount of variation in the dataset. 
