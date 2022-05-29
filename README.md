@@ -77,9 +77,12 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 ## Machine Learning (ML) :
 
-#### Supervised Machine Learning Model :
+### Supervised Machine Learning Model :
+#### Create a Create postgresql connection engine and read the data from postgresqlDB sales_order_sheet_processed :
 
-1. Model to predict future sales
+ ![SQLengine)](/Resources/SQL_engine.png)
+ 
+###  Model to predict future sales
 
 #### Step 1: Analyze the data set.
 While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
