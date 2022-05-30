@@ -8,7 +8,7 @@
  A ML model is developed with LinearRegression Model and RandomForest Classifier model to predict the future sales. Alos, with K-means algorithom (Unsupervised learning method), customer classification is done.
  
  
-### Reason why selected this topic :
+##### Reason why selected this topic :
 A good Product sales analysis can help business /company :
 
 ***Data Sources*** : 
