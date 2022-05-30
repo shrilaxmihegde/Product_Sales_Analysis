@@ -6,7 +6,10 @@
 
  Data journey starts with downloading the files from AWS S3 bucket using ***Python*** Next dataset will undergo cleaning, filtering and transformation using Pandas. Transforemd and cleaned data will be loaded to **PostgreSQL** using sqlalchamy. Using Tableau, an interactive dashboard is built and published to Tableau server for further analysis and visulaization.
  A ML model is developed with LinearRegression Model and RandomForest Classifier model to predict the future sales. Alos, with K-means algorithom (Unsupervised learning method), customer classification is done.
-
+ 
+ 
+### Reason why selected this topic :
+A good Product sales analysis can help business /company :
 
 ***Data Sources*** : 
 
