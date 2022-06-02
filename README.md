@@ -67,11 +67,8 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
  #### Create the path to Local and AWS from s3 bucket.
 
- ![localawsfilepath)](/Resources/local_aws_filepath.png) 
 
 #### Create conection to SQL Database :
-
- ![ETLengine)](Resources/ETL_engine.png) 
 
 #### Here all 5 CSV data loded to a SQLDatabase table detail :
 
@@ -83,7 +80,6 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 ### Supervised Machine Learning Model :
  Create a Create postgresql connection engine and read the data from postgresqlDB sales_order_sheet_processed :
 
- ![SQLengine)](/Resources/SQL_engine.png)
  
 ###  Model to predict future sales
 
@@ -146,32 +142,18 @@ Inertia is one of the most common objective functions to use when creating an el
 
 ![Elbowcurve)](/Resources/Elbow_curve.png) 
 
-In above figure, we can see between 4,5 and 6 curve shifts to a strong horizontal line. So, for our Unsupervised ML model, we choose 4,5 & 6 as K values.
+In above figure, we can see 2 curve shifts to a strong horizontal line. 
 
 ### Below figures show the customer classification using different K values:
 
-1. K= 4
 
-![fourcluster)](/Resources/four_cluster.png) 
-
-![3Dfourclustre)](/Resources/3D_four_clustre.png) 
-
-2. K= 5
-
-![scatterfivecluster)](/Resources/scatter_five_cluster.png) 
-
-![3Dfivecluster)](/Resources/3D_five_cluster.png) 
-
-3.  K= 6
-
-![six_cluster)](/Resources/six_cluster.png) 
-
-![3D_six_cluster)](/Resources/3D_six_cluster_with_legend.png) 
 
 
 ## Result : 
 
-Using K-means algorithm, with clsuter value  6, we can see the good result with customer classification.  
+Using K-means algorithm, with clsuter value  2, we can see the good result with customer classification.
+Class = 0 : Low Value Customers who purchased less.
+Class = 1 : High Value Customers based on Total Sales and Frequency of purchase.   
 
 ## Tableau Dashboard Details :
 
