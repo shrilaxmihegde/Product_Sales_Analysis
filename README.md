@@ -9,7 +9,8 @@
  
  
 ##### Reason why selected this topic :
-A good Product sales analysis can help business /company :
+Companies rely on final sales figures to see how they are performing. But, just looking at the revenue generated cannot help pinpoint what’s working (or not). Without metrics / statistics to guide you,
+it’s hard to make educated and data-driven decisions that will benefit the  company now and in the future. This is where sales analysis comes in.
 
 ***Data Sources*** : 
 
@@ -26,7 +27,7 @@ This data set is a normalized in nature and contains 6 different csv files. Data
 Reason for chosing this data is, it provides an opportunities to demosnstarte the data merging, and blending more than one data files within Python and Tableau and treat it as one single data source. 
 
 
-## Steps :
+## High level steps :
 
 
 1. Retrive sales related data from AWS S3 bucket. 
@@ -41,17 +42,17 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 6. Develop Machine Learning Models:
  
-   a.Using unsupervised learning methods, classify the customer data based on behaviour like Total purchased, recency and frequency.
+   * Using unsupervised learning methods, classify the customer data based on behaviour like Total purchased, recency and frequency.
    
-   b.Develop a future slaes prediction model with LinearRegression and RandomForest Classifier.
+   * Develop a future slaes prediction model with LinearRegression and RandomForest Classifier.
 
 7. Define / Outline future enahancement for making this data pipeleine end to end automated.
  
 
 
  ## Database Schema :
- 
- ![sales_data_ERD)](/Resources/product_SalesDB_ERD.png) 
+  
+ <img src=/Resources/product_SalesDB_ERD.png width=500>
 
 ## ETL :
 
@@ -63,34 +64,23 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
 4. Write the cleaned data into PostgreSQL database using Sqlalchamy
 
-### Here are the some details below :
-
- #### Create the path to Local and AWS from s3 bucket.
-
-#### Create conection to SQL Database :
 
 ## Machine Learning (ML) :
 
 ### Supervised Machine Learning Model :
- Create a Create postgresql connection engine and read the data from postgresqlDB sales_order_sheet_processed :
+ Create a postgresql connection engine and read the data from postgreSQL database, sales_order_sheet_processed table.
 
  
-###  Model to predict future sales
+###  Model to predict future sales:
 
-#### Step 1: Analyze the data set.
+#### Step 1: 
 While analyzing the dataset, we can see May 2018 month has only 5 transactions, which is not a complete dataset and can have adverse impact on the models. Hence, orders with date May 2018 were filtered out.
 We can see dataset we have is not a seasonal. So, LinearRegression and RandomForestClassifier algorithms can be used to develop a model to preddict the sales.
-#### Step 2.
+#### Step 2:
 Derive last 3 months sales diffrence for each month. Then split the data into train and test. After adding 3 months sales diffrence and dropping null values we end up with 28 months data. We split first 22 months data as train dataset and remaining 6 months as test dataset.
 
 
-#### Step 3: Initialze the model, fit the model and predict.
-
- ***Linear Regression Model***
-
-
- Here i used ***Linear Regression Model*** and ***RandomForestRegressor*** for saels pridictons.
- Below it shows two diffrent accuracy scores :
+#### Step 3:
  
  ### Linear Regression Model :
  
@@ -102,9 +92,10 @@ Root Mean Squared Error (RMSE): 237649.6321555779
 
 Mean Absolute Percentage Error (MAPE): 8.33
 
-Accuracy: 91.67%
+***Accuracy: 91.67%***
 
- ![Linear_Regression_Predictions)](/Resources/Linear_Regression_Predictions.png) 
+<img src=/Resources/Linear_Regression_Predictions.png width=500>
+
  
  ### RandomForestRegressor Model:
  
@@ -116,9 +107,10 @@ Root Mean Squared Error (RMSE): 195739.91049649697
 
 Mean Absolute Percentage Error (MAPE): 8.67 
 
-Accuracy: 91.33% 
-     
- ![RandomForestRegressor)](/Resources/RandomForestRegressor.png) 
+***Accuracy: 91.33%***
+
+<img src=/Resources/RandomForestRegressor.png width=500>    
+ 
  
  #### Result :
 While comparing both the models, RMSE value is lesser for  RandomForestRegressor. Hence, RandomForestRegressor model is better fit for this dataset.
@@ -134,28 +126,24 @@ Using Machine Learning algorithms, customers can be classifiled based on the beh
 K-Means algorithm ( Unsupervised Learning Model) will help to learn and classify the customer data based on the behavior. Here K means clustering, which is dervied based on the Elbow curve. 
 Inertia is one of the most common objective functions to use when creating an elbow curve. Basically the inertia objective function is measuring the amount of variation in the dataset. 
 
-![Elbowcurve)](/Resources/Elbow_curve.png) 
+ <img src=/Resources/Elbow_curve.png width=500> 
 
-In above figure, we can see 2 curve shifts to a strong horizontal line. 
+In above figure, we can see at 2 curve shifts to a strong horizontal line. 
 
 ### Below figures show the customer classification using different K values:
 
-
-
+<img src=/Resources/3d_two_custer.png width=500> 
 
 ## Result : 
 
 Using K-means algorithm, with clsuter value  2, we can see the good result with customer classification.
-Class = 0 : Low Value Customers who purchased less.
-Class = 1 : High Value Customers based on Total Sales and Frequency of purchase.   
+* Class = 0 : Low Value Customers who purchased less and frequency of purchase.
+* Class = 1 : High Value Customers based on total sales and frequency of purchase.   
 
 ## Tableau Dashboard Details :
 
-Using Tableau Public, an interactive comprehenssive dashbaord is built. 
+Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
-Tableau Dashboard will help answering below questioons to make data driven decisiosns.
-
-###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
 
 1. Which region has the highest average sales?
 2. Which sales channel did highest sales?
@@ -166,6 +154,33 @@ Tableau Dashboard will help answering below questioons to make data driven decis
 7. Which state has the highest sales ?
 8. Which group did the highest ?
 9. Total number of order by state ? 
+
+###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
+
+## Summary :
+A good product sales analysis can help company / business :
+ 1. Presents long term data you can refer back to.
+ 2. Offer deeper understanding about your customer
+ 3. Make sense of help market trends and  data
+ 4. Fewer missed or lost opportunities.
+ 5. Better decision making, which are data driven.
+ 6. Identifies improvements area.
+
+## Future Improvements:
+
+1. Making end-to-end data pipeline automated.
+    * Tableau Desktop with postgreSQL connector.
+    * Tableau server with report refresh interval
+
+2. Advanced Machine Learning
+    * Deep learning /Neural network help to understand customer behavior better
+    * More reliable future forecast
+
+
+3. ML Model serving (application)
+    * Hosting the ML model
+    * Allow users to send test data and get prediction online
+
 
 #### Presentation (Draft) :
 Draft presentation is avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
