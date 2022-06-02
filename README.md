@@ -140,7 +140,7 @@ Using K-means algorithm, with clsuter value  2, we can see the good result with 
 * Class = 0 : Low Value Customers who purchased less and frequency of purchase.
 * Class = 1 : High Value Customers based on total sales and frequency of purchase.   
 
-## Tableau Dashboard Details :
+## Tableau Dashboard Analysis :
 
 Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
@@ -158,7 +158,8 @@ Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau 
 ###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
 
 ## Summary :
-A good product sales analysis can help company / business :
+
+A good product sales analysis can help company / business? How they can improve?
  1. Presents long term data you can refer back to.
  2. Offer deeper understanding about your customer
  3. Make sense of help market trends and  data
