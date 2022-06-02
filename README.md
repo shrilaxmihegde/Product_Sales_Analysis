@@ -67,13 +67,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
 
  #### Create the path to Local and AWS from s3 bucket.
 
-
 #### Create conection to SQL Database :
-
-#### Here all 5 CSV data loded to a SQLDatabase table detail :
-
- ![SQLdatatable)](/Resources/SQL_data_table.png) 
-
 
 ## Machine Learning (ML) :
 
