@@ -53,7 +53,10 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
  ## Database Schema :
   
  <img src=/Resources/product_SalesDB_ERD.png width=500>
-
+ 
+ <img src=/Resources/SQL_data_table.png width=500>
+ ___________________________________________________________________
+ 
 ## ETL :
 
 1. Fetch data files from local filesystem or AWS S3 buckert based on config in the ETL process.
@@ -155,6 +158,8 @@ Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau 
 8. Which group did the highest ?
 9. Total number of order by state ? 
 
+<img src=/Resources/Dashboard_link.png width=600>
+
 ###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
 
 ## Summary :
@@ -185,3 +190,6 @@ A good product sales analysis can help company / business? How they can improve?
 
 #### Presentation (Draft) :
 Draft presentation is avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
+
+### Resources :
+ <img src=/Resources/Flow_chart.png width=500>
