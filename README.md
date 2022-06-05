@@ -145,6 +145,7 @@ Using K-means algorithm, with clsuter value  2, we can see the good result with 
 
 ## Tableau Dashboard Analysis :
 
+#### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Product_Sales_Analysis_UCBerkeley_Bootcamp/ProductSalesAnalysis-Story?publish=yes)
 Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau Dashboard will help answering below questioons to make data driven decisiosns.
 
 
@@ -160,11 +161,11 @@ Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau 
 
 <img src=/Resources/Dashboard_link.png width=600>
 
-###### Dashboard is available [here](https://public.tableau.com/app/profile/shrilaxmi.hegde4270/viz/Sales_project_draft-2/ProductSalesAnalysis?publish=yes)
+
 
 ## Summary :
 
-A good product sales analysis can help company / business? How they can improve?
+A good product sales analysis can help company / business:
  1. Presents long term data you can refer back to.
  2. Offer deeper understanding about your customer
  3. Make sense of help market trends and  data
@@ -188,8 +189,11 @@ A good product sales analysis can help company / business? How they can improve?
     * Allow users to send test data and get prediction online
 
 
-#### Presentation (Draft) :
-Draft presentation is avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
+## Presentation :
+#### Presentation sliders are avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
+
+#### Presentation recorded version is avaibale [here](https://youtu.be/AR5KLTmyuG4)
 
 ### Resources :
+
  <img src=/Resources/Flow_chart.png width=500>
