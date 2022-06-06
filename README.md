@@ -166,6 +166,7 @@ Using Tableau Public, an interactive comprehenssive dashbaord is built. Tableau 
 ## Summary :
 
 A good product sales analysis can help company / business:
+Sales analysis is done from the bottom level to the top level of the company.
  1. Presents long term data you can refer back to.
  2. Offer deeper understanding about your customer
  3. Make sense of help market trends and  data
