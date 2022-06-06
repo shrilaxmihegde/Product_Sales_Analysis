@@ -46,7 +46,7 @@ Reason for chosing this data is, it provides an opportunities to demosnstarte th
    
    * Develop a future slaes prediction model with LinearRegression and RandomForest Classifier.
 
-7. Define / Outline future enahancement for making this data pipeleine end to end automated.
+7. Define / Outline future enahancement for making this data pipline end to end automated.
  
 
 
