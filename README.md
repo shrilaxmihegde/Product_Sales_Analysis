@@ -193,7 +193,7 @@ Sales analysis is done from the bottom level to the top level of the company.
 ## Presentation :
 #### Presentation sliders are avaibale [here](https://docs.google.com/presentation/d/1PPPP-_-hWiR3mu5kvJFaVtw07xIbeAbdyPKA1V2zR2Q/edit?usp=sharing)
 
-#### Presentation recorded version is avaibale 
+#### Presentation recorded version is avaibale  [here](https://youtu.be/H2Uh1BHlkjE)
 
 ### Resources :
 
