@@ -87,7 +87,7 @@ Derive the last 3 months sales difference for each month. Then split the data in
  
  ### Linear Regression Model :
  
-Root Mean Squared Error (RMSE): 237649.6321555779
+Root Mean Squared Error (RMSE): 237649.63
 
 ***Accuracy: 91.67%***
 
@@ -96,7 +96,7 @@ Root Mean Squared Error (RMSE): 237649.6321555779
  
  ### RandomForestRegressor Model:
  
-Root Mean Squared Error (RMSE): 195739.91049649697
+Root Mean Squared Error (RMSE): 195739.91
 
 ***Accuracy: 91.33%***
 
