@@ -87,13 +87,7 @@ Derive last 3 months sales diffrence for each month. Then split the data into tr
  
  ### Linear Regression Model :
  
-Mean Absolute Error (MAE): 197492.8501748511
-
-Mean Squared Error (MSE): 56477347663.681496
-
 Root Mean Squared Error (RMSE): 237649.6321555779
-
-Mean Absolute Percentage Error (MAPE): 8.33
 
 ***Accuracy: 91.67%***
 
@@ -102,13 +96,7 @@ Mean Absolute Percentage Error (MAPE): 8.33
  
  ### RandomForestRegressor Model:
  
-Mean Absolute Error (MAE): 154779.7333333333
-
-Mean Squared Error (MSE): 38314112561.17665
-
 Root Mean Squared Error (RMSE): 195739.91049649697
-
-Mean Absolute Percentage Error (MAPE): 8.67 
 
 ***Accuracy: 91.33%***
 
@@ -134,6 +122,7 @@ Inertia is one of the most common objective functions to use when creating an el
 In above figure, we can see at 2 curve shifts to a strong horizontal line. 
 
 ### Below figures show the customer classification using different K values:
+3D scatter plot
 
 <img src=/Resources/3d_two_custer.png width=500> 
 
