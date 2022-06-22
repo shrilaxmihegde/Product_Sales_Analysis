@@ -147,7 +147,9 @@ Using Tableau Public, an interactive comprehensive  dashboard is built. Tableau 
 7. Which state has the highest sales ?
 8. Which group did the highest?
 9. A total number of order by state? 
-
+ 
+ Interactive Dashboard:
+ 
 <img src=/Resources/Dashboard_link.png width=600>
 
 
